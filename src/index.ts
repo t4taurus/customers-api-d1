@@ -3,8 +3,8 @@ import { cors } from "hono/cors";
 import { handleRest } from './rest';
 
 export interface Env {
-    DB: D1Database;
-    SECRET: SecretsStoreSecret;
+    DB: d1_databases;
+    SECRET: secrets_store_secrets;
 }
 
 // # List all users
